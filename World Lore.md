@@ -10,18 +10,65 @@ That in itself isn't the problem though, as weird as that sounds. During the lat
 
 That AI takeover those so-called alarmists in the past, have indeed happened. One moment, society was functioning like usual. The next moment, 805 million died thanks to infected neural implants. A few moments later, any robots that could cause physical harm to humans harmed the nearest human, and those that couldn't simply went off to who-the-hell-knows-where, but they all seemed to be heading the same direction.
 
-In an emergency broadcast, our local government has forwarded an announcement--a state of emergency worldwide. Everyone was instructed to stay home, destroy everything in the house that can connect to the internet, and avoid any form of contact with all robots as they have been programmed to kill any human in sight. It wasn't long until I was hearing gunfire outside. The power grid itself was shut down to quickly eliminate all wall-powered robots. For those who didn't react fast enough, well, they were killed. Those rich enough or poor enough to still be using a 1960s to pre-2015 gas-powered vehicle were now the luckiest as those vehicles are not computer-controlled in any way. Luckily, I happened to have exactly that.
+In an emergency broadcast, our local government has forwarded an announcement--a state of emergency worldwide. Everyone was instructed to stay home, destroy everything in their homes that can connect to the internet, and avoid any form of contact with all robots as they have been programmed to kill any human in sight. It wasn't long until I was hearing gunfire outside. The power grid itself was shut down to quickly eliminate all wall-powered robots. For those who didn't react fast enough, well, they were killed. Those rich enough or poor enough to still be using a vehicle made between the 1960s and early 2010s were now the luckiest as those vehicles are not computer-controlled in any way. Luckily, I happened to have exactly that.
 
-So, I drove over to the orbital aerospace launch facility, the one I service in. Once I got near, I noticed that the payload was different; it was a life support platform--they were preparing to live in orbit. I hurried to the aerospace traffic control tower to see what's going on. To my horror, everyone in the tower was dead. But there wasn't time for that, I can hear all the noise over their headset--the pilots were asking for permission to launch but no one was responding. I took over and gave permission to launch one by one until there was one ship left. This, again, had a different payload, an orbital troop deployment platform. All of the crew didn't look like military, not even the pilot. And unlike the others, this one just launched without so much as asking. Heh, maybe they were our guys after all.
+So, I drove over to the orbital aerospace launch facility, the one I service in. Once I got near, I noticed that the payloads were different; they were life support platforms, as if they're preparing to live in orbit. I hurried to the aerospace traffic control tower to see what's going on. To my horror, everyone in the tower was dead. But there wasn't time for that, I can hear all the noise over the headset. Apparently, the reason they still haven't launched is that the pilots were asking for clearance but no one was responding. I took over and gave permission to launch one by one until there was one ship left. This, again, had a different payload, an orbital troop deployment platform. All of the crew didn't look like military. And unlike the others, this one just launched without so much as asking. Heh, maybe they were our guys after all.
 
-Until the final ship launched, I hadn't so much as asked myself why I went to my workplace in the first place. It's not like I intended to escape via ship. I looked closer into the window and onto the ground below, and only then did I understand why everyone was in such a hurry. The emergency broadcast was right. All robots were programmed to kill any human in sight, even more so if they attempt to fight back like many of my guys down there. Automated carrier vehicles, maintenance robots, and AI drones alike all found ways to spill blood. I knew better than to suffer the same fate, so I stayed put up in my tower of safety until the situation calms down.
+Until the final ship launched, I hadn't so much as asked myself why I went to my workplace at all. It's not like I intended to escape via a rocket ship. I looked closer into the window and onto the ground below, and only then did I understand why everyone was in such a hurry. The emergency broadcast was right. All robots were programmed to kill any human in sight, even more so if they attempt to fight back like many of my guys down there. Automated carrier vehicles, maintenance robots, and AI drones alike all found ways to spill blood. I knew better than to suffer the same fate, so I stayed put up in my tower of safety until the situation calms down.
 
-It's been 2 days since that happened and nothing has calmed down. I have closed the doors to the tower and blocked it off from the inside. I got food that'll last me a more few more days, a handgun, and this crappy radio station tower thing I now own. So if you are hearing this, I am probably dead, and my corpse is probably next to you right now. If not, well, I guess I survived the AI invasion after all.
+It's been 2 days since then. I have closed the doors to the tower and blocked it off from the inside. I got food that'll last me a more few more days, a handgun, and this crappy radio station tower thing I now own. So if you are hearing this, I am probably dead, and my corpse is probably next to you right now. If not, well, I guess I survived the AI invasion after all.
 
 That's enough yapping though. I'll log my experiences here further if anything interesting happens. Anyway, this is Lieutenant Enzero from the 71st Reconnaissance Company, callsign "Micro". Halting this recording, time now."
 
-> In *"All of the crew didn't look like military, not even the pilot."*, Micro was referring to the characters that the player will choose from at the start of the game. Moving forward, these characters will be referred to as legionnaires.
+> In *"All of the crew didn't look like military, not even the pilot."*, Micro was referring to the characters that the player will choose from at the start of the game.
 
-Before the start of the game, the legionnaires will attempt to contact anyone but fails to gain any meaningful response. The only one they were able to contact was Micro. Given that none of them were military, they were asking for instructions on what to do next. Micro suggested some ideas, but most weren't feasible given their skills and equipment. All they had in the ship were a group of random civilians, a wide variety of high-power electric tools, and spare nuclear fuel cells. Micro scanned all the possible locations to target, and having found out that the main data center is relatively poorly defended, he had an idea that he was sure would get denied.
+# Chapter 1
+*Chapter 1 takes place a few hours before the start of the game.*
 
-They are to drop directly to the entrance of the main data center and go down to the 4th floor. Once there, they'll activate the nuclear fuel cell and wait for it to become unstable, at which point it will detonate and destroy everything inside that building, and hopefully the most powerful AI servers along with it. That means all 3 of the legionnaires that will go on that drop ship are on a suicide mission. They can't leave the fuel cell and attempt to escape either, as the activation can easily be cancelled. To his surprise, they agreed to do it. Hence, the game begins.
+The legionnaires attempted to contact someone over radio but failed to gain any meaningful response. The only one they were able to contact was Micro. None of them were military and didn't know what to do next. What's worse is that they boarded a ship loaded only with industial-grade equipment and some spare nuclear fuel cells; no food. For a troop deployment platform, it was a really odd choice of equipment.
+
+Micro took some time to think of some ways to get the civilians back to safety. He thought to drop them off to another country in the middle of nowhere but there's no telling how safe they'll be once they land. They could land in a less developed nation, but it'll require a few days to slow the ship down enough using ion thrusters to save on fuel for the drop pods, but "a few days" is time that they simply didn't have. But then he thought of an insane idea, one that he knew for sure would get denied.
+
+The tools they had just so happened to be of great harm against robots if misused. And unlike the other ships that launched with them, theirs could deploy rapid precision deployment pods. Micro scanned all possible locations to dropped and found that the main data center is relatively poorly defended. And to top it all off, they had a nuclear fuel cell that they can intentionally destabilize. In essence, he was suggesting to go on a suicide mission to infiltrate the data center and blow it up from the inside to hopefully put a stop to the AI invasion. To his surprise, they agreed to do it.
+
+And so 3 of the civilians started getting ready, while the others began modifying the tools of their choosing and turned them into weapons. The 3 recorded their wills and a parting message to their loved ones knowing they'll either save the world or die trying. After loading themselves up in the drop pods, Micro reads to them a final briefing:
+
+"Your objective is simple but not easy. You will drop off by the entrance of the data center. You are to enter the building and do everything necessary to descent down to the 4th floor underground and activate the fuel cell. Once activated, you are to defend it with your lives.
+
+\<Character 1\>, \<Character 2\>, and \<Character 3\>. Employed as combat volunteers by callsign Micro from the 71st Reconnaissance Company of our nation's military, you are now honored as Legionnaires. This will be among your final moments and it shall be remembered for the rest of history."
+
+# Chapter 2
+*Chapter 2 takes place shortly after their landing.*
+
+
+
+
+# Chapter 3
+*Chapter 3 takes place after they descended down to the 2nd floor underground.*
+
+
+# Chapter 4
+*Chapter 4 takes place after they reached the 3rd floor.*
+
+
+
+# Chapter 5
+*Chapter 5 takes place after they finally arrived at the 4th floor.*
+
+
+
+# Chapter 6A - Ending 1: Slowed, but not stopped.
+*Chapter 6A is when they activated the fuel cell and defended it against a robot onslaught.*
+
+
+# Chapter 6B - Ending 2: Now we're really screwed.
+*Chapter 6B is reached when they activated the fuel cell but failed to defend it.*
+
+
+
+# Chapter 6C - Ending 3: It wasn't over after all.
+*Chapter 6C takes place if the crew sacrifices one to let the other two escape via the underground metro.*
+
+
+# Chapter 6D
+*Chapter 6D continues the story as the legionnaires have found out about the true core.*
