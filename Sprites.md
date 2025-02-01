@@ -110,7 +110,7 @@ And if you're the one making that reference material, **include it**!
 To make your process simpler, let's assign each action to its own row. From there, you can keep adding sprites for your animation towards the right. For non-animated sprites, you can group them together into one row as well.
 
 ### How big does each sprite have to be?
-This is addressed in Sizing, so we'll skip over this for now.
+This is addressed in [Sizing](https://github.com/DefinitelyRus/PSI-ID/blob/main/Sprites.md#sizing), so we'll skip over this for now.
 
 ### Do these sprites need to be animated?
 #### If yes, how long is the animation (in seconds or frames) and how smooth does it have to be?
@@ -119,24 +119,31 @@ This will determine how many sprites you'll need to make for each action. Some a
 ## Sizing
 What size (resolution) should each **sprite** be? You should strike a balance between your intended art quality and the game's performance. The higher the resolution, and the more sprites there are on-screen, the laggier it will be.
 
-> For PSI, character sprites are 512px tall in editing but exported to 128px tall. This is useful in many ways: [downscaling](https://pcpartsgeek.com/downscaling/#:~:text=downscaling%20is%20the%20process%20of%20reducing%20the%20resolution%20or%20size%20of%20an%20image%2C%20video%2C%20or%20any%20other%20form%20of%20digital%20content.) to half the resolution reduces the performance impact by about 16x while also marginally improving the image quality thanks to [supersampling](https://en.wikipedia.org/wiki/Supersampling#:~:text=this%20is%20achieved%20by%20rendering%20the%20image%20at%20a%20much%20higher%20resolution%20than%20the%20one%20being%20displayed%2C%20then%20shrinking%20it%20to%20the%20desired%20size%2C%20using%20the%20extra%20pixels%20for%20calculation.%20the%20result%20is%20a%20downsampled%20image%20with%20smoother%20transitions%20from%20one%20line%20of%20pixels%20to%20another%20along%20the%20edges%20of%20objects.).
+> For PSI, character sprites are 512px tall in editing but exported to 128px tall. This is useful in many ways: [downscaling](https://pcpartsgeek.com/downscaling/#:~:text=downscaling%20is%20the%20process%20of%20reducing%20the%20resolution%20or%20size%20of%20an%20image%2C%20video%2C%20or%20any%20other%20form%20of%20digital%20content.) to a quarter of the resolution reduces the performance impact by about 16x while also improving the image quality thanks to [supersampling](https://en.wikipedia.org/wiki/Supersampling#:~:text=this%20is%20achieved%20by%20rendering%20the%20image%20at%20a%20much%20higher%20resolution%20than%20the%20one%20being%20displayed%2C%20then%20shrinking%20it%20to%20the%20desired%20size%2C%20using%20the%20extra%20pixels%20for%20calculation.%20the%20result%20is%20a%20downsampled%20image%20with%20smoother%20transitions%20from%20one%20line%20of%20pixels%20to%20another%20along%20the%20edges%20of%20objects.).
 > 
-> In PUB, and for pixel art in general, having jagged edges (a form of [aliasing](https://en.wikipedia.org/wiki/Supersampling#:~:text=Aliasing%20occurs%20because,horizontal%20or%20vertical.)) is actually crucial part of the pixel art aesthetic. This means that supersampling (a form of [anti-aliasing](https://cloudinary.com/glossary/image-aliasing#:~:text=causes%20aliasing%20issues.-,anti-aliasing%20algorithms,-.%20Implement%20algorithms%20that)) is actually harmful to the design and has no performance benefits, not to mention that all it does is create more work for the artists.
+> In PUB, and for pixel art in general, jagged edges (a form of [aliasing](https://en.wikipedia.org/wiki/Supersampling#:~:text=Aliasing%20occurs%20because,horizontal%20or%20vertical.)) are actually crucial part of the pixel art aesthetic and are manipulated with intent. This means that supersampling (a form of [anti-aliasing](https://cloudinary.com/glossary/image-aliasing#:~:text=causes%20aliasing%20issues.-,anti-aliasing%20algorithms,-.%20Implement%20algorithms%20that)) is actually harmful to the design and has no performance benefits, not to mention that all it does is create more work for the artists.
 
-There are different approaches when it comes to making sprite sheets. The most common one is to make a reasonably large canvas, make your character sprites in the size you intended, then shrink the canvas once you're done! If you need more space, you can always just expand the canvas later.
+There are different approaches when it comes to making sprite sheets. The most common one is to make a reasonably large canvas, make your character sprites in the size you intended, then shrink the canvas once you're done. If you need more space, you can always just expand the canvas later.
 
 We'll talk more in detail later about sprite-sheet-making basics. For now, we need to know how to properly size and space our sprites.
 
-### Equal-size cells
+### What's the difference?
+When we say "fixed-size" or "variable-size", we're referring to how much space each sprite takes up in the sprite sheet. Fixed-size sprites are always the same size, just that you don't see the transparent parts in-game. Variable-size sprites only take up as much space as it needs, but the task of centering it is offloaded to the developer.
+
+In other words, fixed-size cells are more convenient for the developers while variable-size cells require less memory, especially for larger sprites.
+
+### Fixed-size cells
 The image below shows a sprite sheet where each individual sprite has the same size. This means that the character has to be centered properly in each cell so that it'll look just as centered when in-game. If done poorly, the character could look offset.
 
 This approach takes advantage of the blank space to keep a consistent size, letting the artist determine how the character will be centered. As a downside, that blank space still takes up memory and may affect performance, particularly for large resolutions.
+
+For some game engines, this might be the fastest option. Not all game engines come with a smart slicer tool that gets rid of most of the blank spaces (turning it into a variable-size cell), so you'll either have to configure it manually or simply stick with fixed-size cells.
 
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/a83c07120129749.60abda77d6af9.png" width=65%>
 
 *Source: [Mario Maiale from Behance](https://www.behance.net/gallery/120129749/Sprite-Sheet)*
 
-> **💡 Tip:** When making equal-size cells, leave enough space for movement! As you can see on the image below, the character takes up more width when running sideways. It's easier to shrink the space taken up by each sprite, than it is to expand after the fact.
+> **💡 Tip:** When making fixed-size cells, leave enough space for movement! As you can see on the image below, the character takes up more width when running sideways. It's easier to shrink the space taken up by each sprite, than it is to expand after the fact.
 > 
 > <img src="https://discuss.pencil2d.org/uploads/default/original/1X/8981294f2405202c498917a7c1594ead23dbfca4.png" width=65%>
 >
@@ -145,7 +152,7 @@ This approach takes advantage of the blank space to keep a consistent size, lett
 ### Variable-size cells
 Variable-size cells, on the other hand, shrink the character sprites down to the bare minimum size, cutting out as much unnecessary blank space as possible.
 
-When making sprite sheets that don't have equally-sized cells, the sprites only need a minimum of 1 pixel gap between one sprite and another (although still not recommended). As you can see on the image below, certain sprite groups (like walking) are narrower than others (like punching).
+When making sprite sheets that don't have fixed-sized cells, the sprites only need a minimum of 1 pixel gap between one sprite and another (although still not recommended). As you can see on the image below, certain sprite groups (like walking) are narrower and closer together than others (like punching).
 
 Here, the engine (and therefore, the developers) determines how the character will be centered. This isn't normally a problem, but some sprites might be best centered with an offset (usually for running animations) which adds more work for the developers.
 
