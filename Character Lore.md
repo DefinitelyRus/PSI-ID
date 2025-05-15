@@ -116,5 +116,109 @@ In combat, he is most effective when getting up close and personal with his targ
 
 
 # Alexi
+<!-- Briefly describe the character's background. -->
+
+He heals his teammates through any means necessary, including using a tranquilizer gun loaded with instant trauma-healing vaccines.
+<!-- Describe the intended use-case for this character in-game. -->
+
+## Basic Info
+- Full name: Alexis Yu
+- Nicknames / Aliases: Alexi
+- Age: 35
+- Gender: Male
+- Home Country: Vorta
 - Occupation: Independent Medical Researcher
 - Hobby: Medical Malpractice
+
+### Personality
+- Core traits: Loud, Caring, Carefree
+- Strengths:
+    - Always finds a way to heal someone, even if inhumane.
+- Flaws:
+    - Has no regard for humaneness.
+- Quirks:
+    - Likes wearing tacky shirts from vacations.
+- Moral Alignment:
+    - Chaotic Good
+
+## Appearance
+- Build: Medium
+- Hair color: Black
+- Clothing:
+    - Lab Coat
+    - Blue Shirt
+    - White Pants
+- Distinguishing Features:
+    - Lab Coat
+    - Medical Gloves
+
+## Gameplay Role
+- Targeting Style: Closest Teammate First
+- Special Equipment: Tranquilizer Gun
+
+### Stats
+- Max Health: 4
+- Speed: Moderate
+- Aggro: Low
+
+### Skills
+- +50% Fire rate when using support weapons
+- -50% Fire rate when using regular weapons
+
+## Relationships
+- Unknown
+
+&nbsp;
+
+
+
+# Xander
+<!-- Briefly describe the character's background. -->
+
+<!-- Describe the intended use-case for this character in-game. -->
+Xander is a generalist, making her suitable to aid in combat or as additional support, depending on her equipped weapons and modules.
+
+## Basic Info
+- Full name: Xander Alex F. Santos
+- Nicknames / Aliases: 
+- Age: 19
+- Gender: Transfem
+- Home Country: Sandongonan
+- Occupation: Student
+- Hobby: Social Media
+
+### Personality
+- Core traits: Reserved, Shy
+- Strengths:
+    - Knows how to exploit technology.
+- Flaws:
+    - Can be difficult to work with.
+- Quirks:
+    - Manages to relate everything to an outdated meme from the 2020s.
+- Moral Alignment:
+    - True Neutral
+
+## Appearance
+- Build: Petite, Tall
+- Hair color: Green-Blue Fade
+- Clothing:
+    - White Long Sleeve Shirt
+    - Black Trousers
+- Distinguishing Features:
+    - Green-Blue Faded Hair
+
+## Gameplay Role
+- Targeting Style: Closest First
+- Special Equipment: Jammer
+
+### Stats
+- Max Health: 5
+- Speed: Moderate
+- Aggro: Moderate
+
+### Skills
+- 10% change to deal 2x damage
+
+## Relationships
+- Parents (Unknown)
+- Classmates (Unknown)
