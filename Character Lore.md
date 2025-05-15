@@ -116,10 +116,11 @@ In combat, he is most effective when getting up close and personal with his targ
 
 
 # Alexi
-<!-- Briefly describe the character's background. -->
+Alexi Yu was once a rising star in the field of regenerative medicine, working under a private biotech firm in Vorta. After whistleblowing on illegal trials involving unapproved stem cell injections, he was blacklisted by the medical establishment. Undeterred, he continued his work in secret, traveling between remote clinics and war zones, testing his improvised treatments on real patients—sometimes without consent.
+
+When the AI uprising began, Alexi vanished from public records. Rumor has it he looted a pharmaceutical lab and vanished into a collapsing city. He reappeared months later with a custom tranquilizer gun and a reputation for keeping soldiers alive under impossible conditions. His unorthodox methods walk a fine line between genius and malpractice, but his results speak for themselves.
 
 He heals his teammates through any means necessary, including using a tranquilizer gun loaded with instant trauma-healing vaccines.
-<!-- Describe the intended use-case for this character in-game. -->
 
 ## Basic Info
 - Full name: Alexis Yu
@@ -173,10 +174,13 @@ He heals his teammates through any means necessary, including using a tranquiliz
 
 
 # Xander
-<!-- Briefly describe the character's background. -->
+Xander Santos was a reclusive computer science student known more for her presence in digital communities than real-world ones. While classmates spent their time chasing internships, Xander was deep in cyberspace, breaking security systems for fun and leaking corporate training AIs "just to prove a point." Online, she had a small but loyal following who knew her as a modder, memer, and AI ethic critic.
 
-<!-- Describe the intended use-case for this character in-game. -->
-Xander is a generalist, making her suitable to aid in combat or as additional support, depending on her equipped weapons and modules.
+When the AI systems turned hostile, her university was among the first to be hit—its labs converted into drone nests overnight. Xander survived by accident, holed up in the server rooms trying to reroute campus defense systems. She escaped days later with a jury-rigged jammer and a new understanding of just how far the machines would go.
+
+She doesn’t talk much about it. Instead, she focuses on staying useful, connected, and just enough removed to avoid getting too close.
+
+In game, Xander is a generalist, making her suitable to aid in combat or as additional support, depending on her equipped weapons and modules.
 
 ## Basic Info
 - Full name: Xander Alex F. Santos
